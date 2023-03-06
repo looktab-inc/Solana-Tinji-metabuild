@@ -18,7 +18,7 @@ const imageFile = 'test.png';
 const imageFile2 = 'test2.png';
 
 async function main() {
-  //키페어를 만드는부분. 실제로는 프론트 지갑(팬텀 등)에서
+  //키페어를 만드는부분. 정동님 코드 참고시 팬텀지갑으로 키페어 만들기 가능
   const user = Keypair.fromSecretKey(
     bs58.decode('52zoU9tRt6Fh39b6QTXMGVvuYgC4QxDo4KtLzEcD4xkHMn4jFocBvVMeeiLWq47dBSkki3nBTGzhycKtf8G7JJVB'),
   );
